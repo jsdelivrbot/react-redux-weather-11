@@ -1,25 +1,16 @@
-# ReduxSimpleStarter
+# React/Redux Weather using React Sparlkines Charts
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Learning React and redux. Sample project using OpenWeather Map API to display weather data of cities in form of charts.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/aayush962/react-redux-weather
+> cd react-redux-weather
 > npm install
 > npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Navigate to http://localhost:8080
 
-```
-> npm install
-> npm start
-```
+Happy browsing!
