@@ -20,13 +20,22 @@ class SearchBar extends React.Component{
   onFormSubmit(e){
     e.preventDefault();
     this.props.fetchWeather(this.state.term)
+    this.setState({term: ''})
   }
 
   render(){
     return(
       <div>
-        <form onSubmit={this.onFormSubmit.bind(this)}>
-          <input value={this.state.term} onChange={this.onInputChange.bind(this)}/>
+        <form className="input-group" onSubmit={this.onFormSubmit.bind(this)}>
+          <input
+            value={this.state.term}
+            placeholder="Type a city name (US Only)"
+            onChange={this.onInputChange.bind(this)}
+            className="form-control"
+          />
+          <span className="input-group-btn">
+            <button type="submit" className="btn btn-secondary">Submit</button>
+          </span>
         </form>
       </div>
     )
